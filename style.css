@@ -1,0 +1,19 @@
+/* General */
+
+body {
+    background: url('images/modal-bg.jpg') no-repeat center/cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#btn {
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#btn:hover {
+    background-color: #fff;
+    transition: 0.5s ease;
+}
