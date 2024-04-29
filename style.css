@@ -53,3 +53,30 @@ body {
 #modal-container {
     display: none;
 }
+
+@media (max-width: 600px) {
+    
+    #modal p {
+        font-size: 1.2em;
+        padding-left: 30px;
+    }
+
+    #modal #close-modal {
+        font-size: 2em;
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    #modal p {
+        font-size: 1.1em;
+        padding-left: 15px;
+    }
+
+    #modal #close-modal {
+        font-size: 1.8em;
+        padding: 5px;
+    }
+}
